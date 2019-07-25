@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Candidate"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btCan1"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="55dp"
+        android:text="Can1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btCan2"
+        app:layout_constraintEnd_toStartOf="@+id/btCan2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btCan2"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="73dp"
+        android:text="Can2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btCan1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

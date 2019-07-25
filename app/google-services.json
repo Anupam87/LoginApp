@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "951313733013",
+    "firebase_url": "https://logindemo-a107e.firebaseio.com",
+    "project_id": "logindemo-a107e",
+    "storage_bucket": "logindemo-a107e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951313733013:android:f54117ab165a2dce",
+        "android_client_info": {
+          "package_name": "com.example.anupa.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951313733013-2cgk93ubq471olapmu6h5tmfs2sielfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anupa.loginapp",
+            "certificate_hash": "6783aeadf757c614a25ec5f8df7f9f9816e3c68e"
+          }
+        },
+        {
+          "client_id": "951313733013-qjnk9cotdalhhinl83a1h63rdl6sr301.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7IuPAqXKb02F6wkC87YMTU0lk_Yj7b0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951313733013-qjnk9cotdalhhinl83a1h63rdl6sr301.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
